@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 May, 2020, 11:32:51 PM
+    Author     : sanchet
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 May, 2020, 4:31:52 PM
+    Author     : sanchet
+*/
+
+ *{
+                margin: 0px;
+                padding: 0px;
+                background-color: #ffcc00;
+            }
+
+
+
+header{
+
+background-image: url("images/Chenni-super-kings-player-list.jpg") ;
+height: 100vh;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+  
+
+ul{
+
+    list-style-type: none;
+ padding-top: 20px;
+
+}
+ul li{
+    padding-left: 30px;
+float: left;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid #000000;
+ 
+    
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+    
+}
+.active{
+     background-color: white;
+    color: black;
+}
+.logo{
+    position: absolute;
+    top: 20%;
+    left: 27%;
+}
+.logo img{
+    
+    height:auto;
+    width: 150px;
+  
+}
+
+.title{
+ position: absolute;
+ top: 50%;
+ left: 30%;
+ transform:translate(-50%,-50%)
+}
+
+.title h1{
+    font-size: 60px;
+ font-family: fantasy;
+ font-weight: bold;
+    
+}
+.teams{
+    display: list-item;
+    
+}
+
+ul ul{
+    display: none;
+
+}
+
+ul li>ul li{
+    float: none;
+    padding-bottom:  20px;
+}
+ul li:hover>ul{
+    display: block;
+}
